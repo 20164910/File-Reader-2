@@ -1,0 +1,30 @@
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\bin\Debug\OME File Reader.exe.config
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\bin\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\bin\Debug\OME File Reader.pdb
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME_File_Reader.Properties.Resources.resources
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME File Reader.csproj.GenerateResource.cache
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME File Reader.pdb
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME File Reader.csprojResolveAssemblyReference.cache
+C:\Users\Mukhtar\Documents\GitHub\file-reader\File-Reader\file-reader\OME File Reader\OME File Reader\obj\Debug\OME_File_Reader.SaveBtn.resources
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\bin\Debug\OME File Reader.exe.config
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\bin\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\bin\Debug\OME File Reader.pdb
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME File Reader.csprojResolveAssemblyReference.cache
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME_File_Reader.SaveBtn.resources
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME_File_Reader.Properties.Resources.resources
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME File Reader.csproj.GenerateResource.cache
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Desktop\Project12\OME File Reader\obj\Debug\OME File Reader.pdb
+B:\OME File Reader\obj\Debug\OME File Reader.csprojResolveAssemblyReference.cache
+B:\OME File Reader\obj\Debug\OME_File_Reader.SaveBtn.resources
+B:\OME File Reader\obj\Debug\OME_File_Reader.Properties.Resources.resources
+B:\OME File Reader\obj\Debug\OME File Reader.csproj.GenerateResource.cache
+B:\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
+B:\OME File Reader\obj\Debug\OME File Reader.exe
+B:\OME File Reader\obj\Debug\OME File Reader.pdb
+B:\OME File Reader\bin\Debug\OME File Reader.exe.config
+B:\OME File Reader\bin\Debug\OME File Reader.exe
+B:\OME File Reader\bin\Debug\OME File Reader.pdb
