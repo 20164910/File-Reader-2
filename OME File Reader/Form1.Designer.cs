@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -35,10 +36,11 @@
             this.saveFileBtn = new System.Windows.Forms.Button();
             this.clearAllBtn = new System.Windows.Forms.Button();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox = new System.Windows.Forms.RichTextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -131,6 +133,15 @@
             this.flowLayoutPanel4.Size = new System.Drawing.Size(21, 394);
             this.flowLayoutPanel4.TabIndex = 2;
             // 
+            // richTextBox
+            // 
+            this.richTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox.Location = new System.Drawing.Point(90, 3);
+            this.richTextBox.Name = "richTextBox";
+            this.richTextBox.Size = new System.Drawing.Size(753, 394);
+            this.richTextBox.TabIndex = 3;
+            this.richTextBox.Text = "";
+            // 
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -168,14 +179,14 @@
             this.label1.Text = "File Reader";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // richTextBox
+            // toolTip1
             // 
-            this.richTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBox.Location = new System.Drawing.Point(90, 3);
-            this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(753, 394);
-            this.richTextBox.TabIndex = 3;
-            this.richTextBox.Text = "";
+            this.toolTip1.AutoPopDelay = 5000;
+            this.toolTip1.InitialDelay = 0;
+            this.toolTip1.IsBalloon = true;
+            this.toolTip1.ReshowDelay = 100;
+            this.toolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTip1.ToolTipTitle = "Begin here";
             // 
             // SaveBtn
             // 
@@ -187,6 +198,7 @@
             this.Name = "SaveBtn";
             this.Text = "OME File Reader Lite";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.SaveBtn_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
@@ -209,6 +221,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.RichTextBox richTextBox;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
