@@ -28,6 +28,7 @@ B:\OME File Reader\obj\Debug\OME File Reader.pdb
 B:\OME File Reader\bin\Debug\OME File Reader.exe.config
 B:\OME File Reader\bin\Debug\OME File Reader.exe
 B:\OME File Reader\bin\Debug\OME File Reader.pdb
+<<<<<<< HEAD
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe.config
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.pdb
@@ -38,3 +39,15 @@ C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Rea
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.exe
 C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.pdb
+=======
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe.config
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.pdb
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csprojResolveAssemblyReference.cache
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME_File_Reader.SaveBtn.resources
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME_File_Reader.Properties.Resources.resources
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.GenerateResource.cache
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.exe
+C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.pdb
+>>>>>>> cd64be66d58a54884d9703ed6ff2d272b43ad49f
