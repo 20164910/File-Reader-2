@@ -38,3 +38,13 @@ C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Re
 C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
 C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.exe
 C:\Users\Mukhtar\Desktop\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.pdb
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe.config
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.exe
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\bin\Debug\OME File Reader.pdb
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csprojResolveAssemblyReference.cache
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME_File_Reader.Form1.resources
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME_File_Reader.Properties.Resources.resources
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.GenerateResource.cache
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.csproj.CoreCompileInputs.cache
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.exe
+C:\Users\OYDS\Documents\Git\File-Reader-2\OME File Reader\obj\Debug\OME File Reader.pdb

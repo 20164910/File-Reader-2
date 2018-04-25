@@ -16,7 +16,7 @@ namespace OME_File_Reader
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SaveBtn());
+            Application.Run(new Form1());
         }
     }
 }
