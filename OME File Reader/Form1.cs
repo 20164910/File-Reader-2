@@ -35,12 +35,11 @@ namespace OME_File_Reader
         {
             //creates a whole new page
             richTextBox.Clear();
-
-            //Set path to empty to enable me to save it as a brand new file
-            path = string.Empty;
-
+            int count = 0;
             //fileNameLabel displays the name of current opened file
             fileNameLabel.Text = cof + "Untitled";
+            //display the total of words to label
+            numOfWordsLabel.Text = msg + count;
 
         }
 
@@ -178,21 +177,6 @@ namespace OME_File_Reader
 
         }
 
-        //dialog appears twice
-        //Exit
-        //To exit the application
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //Ask user if they're sure that they want to close application
-            DialogResult close = MessageBox.Show("Are you sure you really want to Exit the application?", "Close Application?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (close == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
-        ///----------------------------------------------------------------------------------///
 
         //2.Edit
 
@@ -242,7 +226,6 @@ namespace OME_File_Reader
 
         }
 
-        ///--------------------------------------------------------------------------------------///
 
         //3.Format
 
@@ -272,7 +255,6 @@ namespace OME_File_Reader
 
         }
 
-        ///------------------------------------------------------------------------------------///
 
         //4.About
 
@@ -283,7 +265,6 @@ namespace OME_File_Reader
 
         }
 
-        ////---------------------------------------------------------------------------------///
 
         //5. Search Button
         //Searches for words the user wants to find
@@ -336,10 +317,6 @@ namespace OME_File_Reader
         }
 
 
-
-
-        //---------------------------------------------------------------------------------------------//
-
         ////////// Buttons /////////
 
         //1.Create New button
@@ -348,9 +325,11 @@ namespace OME_File_Reader
         {
             //creates a whole new page
             richTextBox.Clear();
-
+            int count = 0;
             //fileNameLabel displays the name of current opened file
             fileNameLabel.Text = cof + "Untitled";
+            //display the total of words to label
+            numOfWordsLabel.Text = msg + count;
 
         }
 
@@ -515,6 +494,51 @@ namespace OME_File_Reader
         private void Form1_Load(object sender, EventArgs e)
         {
             toolTip1.SetToolTip(openFileBtn, "Click to select file to be read");
+        }
+
+        
+
+        /////////////////Right click button tool strip///////////////
+
+
+        private void cutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void copyToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pasteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void undoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void redoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void selectAllToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearAllToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
         }
 
     }
