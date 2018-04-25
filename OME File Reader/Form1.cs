@@ -261,7 +261,7 @@ namespace OME_File_Reader
         //Information about the application such as the version and copy right
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        
+            MessageBox.Show("OME File Reader Professional\nVesrion 3.0\nCopyright © 2018", "About Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -500,45 +500,47 @@ namespace OME_File_Reader
 
         /////////////////Right click button tool strip///////////////
 
-
+        //Cut
         private void cutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            richTextBox.Cut();
         }
-
+        //Copy
         private void copyToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            richTextBox.Copy();     
         }
-
+        //Paste
         private void pasteToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            richTextBox.Paste();
         }
-
+        //Undo
         private void undoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            richTextBox.Undo();
         }
-
+        //Redo
         private void redoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+             richTextBox.Redo();
         }
-
+        //Delete
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            richTextBox.SelectedText = string.Empty;
         }
-
+        //SelectAll
         private void selectAllToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            richTextBox.SelectAll();
+            //The first code could not work without focusing on the text by clicking inside the text box
+            richTextBox.Focus(); 
         }
-
+        //ClearAll
         private void clearAllToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+           richTextBox.Clear();
         }
 
     }
