@@ -33,7 +33,14 @@ namespace OME_File_Reader
         //Create New
         private void createNewToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //creates a whole new page
+            richTextBox.Clear();
 
+            //Set path to empty to enable me to save it as a brand new file
+            path = string.Empty;
+
+            //fileNameLabel displays the name of current opened file
+            fileNameLabel.Text = cof + "Untitled";
 
         }
 
@@ -127,7 +134,37 @@ namespace OME_File_Reader
         //Saves the file as a new file if it does not exist
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           //creates a file object for the savefile dialog
+            SaveFileDialog saveFile = new SaveFileDialog();
 
+            //The file filter allows us to only open specific file types, in this case text files only
+            saveFile.Filter = "Text files (*.txt)|*.txt";
+
+            if (saveFile.ShowDialog() == DialogResult.OK)
+            {
+                //set path to a new variable of whatever file the user chooses
+                path = saveFile.FileName;
+
+                //Making use of exceptions to protect the disk should the codes have errors
+                try
+                {
+                    //enables the user to write the desired file name to be saved
+                    StreamWriter createFile = new StreamWriter(path);
+                    //to save whatever is written in the rich text box
+                    createFile.Write(richTextBox.Text);
+
+                    //fileNameLabel
+                    fileNameLabel.Text = cof + Path.GetFileName(path);
+
+                    //closes the stream writer to get rid of an error when user attempts to click
+                    //the create button more than once
+                    createFile.Dispose();
+                }
+                catch (IOException error)
+                {
+                    MessageBox.Show("Error in saving to disk, please check code: " + error.Message);
+                }
+            }
 
         }
 
@@ -135,7 +172,9 @@ namespace OME_File_Reader
         //To print the file
         private void printToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+        
+            PrintDialog print = new PrintDialog();
+            print.ShowDialog();
 
         }
 
@@ -161,43 +200,45 @@ namespace OME_File_Reader
         //Cuts the text from current location
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+        richTextBox.Cut();
 
         }
 
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+         richTextBox.Copy();
 
         }
 
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-
+         richTextBox.Paste();
+   
         }
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+         richTextBox.Undo();
 
         }
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+        richTextBox.Redo();
 
         }
 
         private void selectAlltoolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+         richTextBox.SelectAll();
+            //The first code could not work without focusing on the text by clicking inside the text box
+            richTextBox.Focus();
 
         }
 
         private void clearAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+        richTextBox.Clear();
 
         }
 
@@ -208,13 +249,26 @@ namespace OME_File_Reader
         //Font style
         private void fontStyleToolStripMenuItem_Click(object sender, EventArgs e)
         {
+         FontDialog fonts = new FontDialog();
+            //fonts.ShowDialog();
 
+            if (fonts.ShowDialog() == DialogResult.OK)
+            {
+                string fontName;
+                double fontSize;
+                fontName = fonts.Font.Name;
+                fontSize = fonts.Font.Size;
+                richTextBox.Font = fonts.Font;
+                MessageBox.Show(fontName + " with size " + fontSize + " has been selected", "Font Selection Succes");
+            }
 
         }
 
         private void fontColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+          ColorDialog colour = new ColorDialog();
+            colour.ShowDialog();
+            richTextBox.SelectionColor = colour.Color;
 
         }
 
@@ -225,7 +279,10 @@ namespace OME_File_Reader
         //Information about the application such as the version and copy right
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+          using (FormAbout frmAbt = new FormAbout())
+            {
+                frmAbt.ShowDialog();
+            }
 
         }
 
@@ -235,7 +292,21 @@ namespace OME_File_Reader
         //Searches for words the user wants to find
         private void searchBtn_Click(object sender, EventArgs e)
         {
+         int index = 0;
+            String temp = richTextBox.Text;
+            richTextBox.Text = "";
+            richTextBox.Text = temp;
 
+            while (index < richTextBox.Text.LastIndexOf(searchTxtBox.Text))
+            {
+                //Searches the text in a RichTextBox control for a string within a range of texts.
+                richTextBox.Find(searchTxtBox.Text, index, richTextBox.TextLength, RichTextBoxFinds.None);
+                //Colour Selection.This is added automatically when a match is found.
+                richTextBox.SelectionBackColor = Color.Yellow;
+                //After a match is found the index is increased so the search won't stop at the same match again.i.e it will search for similiar match.
+                index = richTextBox.Text.IndexOf(searchTxtBox.Text, index) + 1;
+               
+            }
 
         }
 
@@ -288,7 +359,11 @@ namespace OME_File_Reader
         //create new blank page
         private void createNewBtn_Click(object sender, EventArgs e)
         {
+         //creates a whole new page
+            richTextBox.Clear();
 
+            //fileNameLabel displays the name of current opened file
+            fileNameLabel.Text = cof + "Untitled";
 
         }
 
@@ -418,7 +493,8 @@ namespace OME_File_Reader
         //Opens print dialog to print the current opened text file
         private void printBtn_Click(object sender, EventArgs e)
         {
-
+            PrintDialog print = new PrintDialog();
+            print.ShowDialog();
 
         }
 
