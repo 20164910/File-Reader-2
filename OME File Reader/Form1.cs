@@ -279,10 +279,7 @@ namespace OME_File_Reader
         //Information about the application such as the version and copy right
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          using (FormAbout frmAbt = new FormAbout())
-            {
-                frmAbt.ShowDialog();
-            }
+        
 
         }
 
