@@ -134,7 +134,7 @@ namespace OME_File_Reader
         //Saves the file as a new file if it does not exist
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           //creates a file object for the savefile dialog
+            //creates a file object for the savefile dialog
             SaveFileDialog saveFile = new SaveFileDialog();
 
             //The file filter allows us to only open specific file types, in this case text files only
@@ -200,31 +200,31 @@ namespace OME_File_Reader
         //Cuts the text from current location
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        richTextBox.Cut();
+            richTextBox.Cut();
 
         }
 
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         richTextBox.Copy();
+            richTextBox.Copy();
 
         }
 
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         richTextBox.Paste();
+            richTextBox.Paste();
    
         }
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         richTextBox.Undo();
+            richTextBox.Undo();
 
         }
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        richTextBox.Redo();
+            richTextBox.Redo();
 
         }
 
@@ -238,7 +238,7 @@ namespace OME_File_Reader
 
         private void clearAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        richTextBox.Clear();
+            richTextBox.Clear();
 
         }
 
@@ -249,7 +249,7 @@ namespace OME_File_Reader
         //Font style
         private void fontStyleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         FontDialog fonts = new FontDialog();
+            FontDialog fonts = new FontDialog();
             //fonts.ShowDialog();
 
             if (fonts.ShowDialog() == DialogResult.OK)
@@ -266,7 +266,7 @@ namespace OME_File_Reader
 
         private void fontColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-          ColorDialog colour = new ColorDialog();
+            ColorDialog colour = new ColorDialog();
             colour.ShowDialog();
             richTextBox.SelectionColor = colour.Color;
 
@@ -289,7 +289,7 @@ namespace OME_File_Reader
         //Searches for words the user wants to find
         private void searchBtn_Click(object sender, EventArgs e)
         {
-         int index = 0;
+            int index = 0;
             String temp = richTextBox.Text;
             richTextBox.Text = "";
             richTextBox.Text = temp;
@@ -356,7 +356,7 @@ namespace OME_File_Reader
         //create new blank page
         private void createNewBtn_Click(object sender, EventArgs e)
         {
-         //creates a whole new page
+            //creates a whole new page
             richTextBox.Clear();
 
             //fileNameLabel displays the name of current opened file
@@ -526,5 +526,6 @@ namespace OME_File_Reader
         {
             toolTip1.SetToolTip(openFileBtn, "Click to select file to be read");
         }
+
     }
 }

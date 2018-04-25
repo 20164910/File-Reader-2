@@ -95,9 +95,9 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.4712F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.29319F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.235602F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(879, 502);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -111,11 +111,11 @@
             this.tableLayoutPanel2.Controls.Add(this.flowLayoutPanel4, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.richTextBox, 1, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 25);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 55);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(873, 448);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(873, 417);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // flowLayoutPanel2
@@ -130,7 +130,7 @@
             this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(82, 442);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(82, 411);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
             // createNewBtn
@@ -204,7 +204,7 @@
             this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel4.Location = new System.Drawing.Point(858, 3);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(12, 442);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(12, 411);
             this.flowLayoutPanel4.TabIndex = 2;
             // 
             // richTextBox
@@ -212,7 +212,7 @@
             this.richTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox.Location = new System.Drawing.Point(91, 3);
             this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(761, 442);
+            this.richTextBox.Size = new System.Drawing.Size(761, 411);
             this.richTextBox.TabIndex = 3;
             this.richTextBox.Text = "";
             this.richTextBox.TextChanged += new System.EventHandler(this.richTextBox_TextChanged);
@@ -220,9 +220,9 @@
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(3, 479);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(3, 478);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(873, 20);
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(873, 21);
             this.flowLayoutPanel5.TabIndex = 2;
             // 
             // flowLayoutPanel1
@@ -233,7 +233,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(873, 16);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(873, 46);
             this.flowLayoutPanel1.TabIndex = 3;
             // 
             // menuStrip1
@@ -247,7 +247,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(281, 16);
+            this.menuStrip1.Size = new System.Drawing.Size(281, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -508,16 +508,16 @@
             this.fileNameLabel,
             this.toolStripSeparator2,
             this.numOfWordsLabel});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 16);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(608, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(639, 22);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // searchTxtBox
             // 
             this.searchTxtBox.Name = "searchTxtBox";
-            this.searchTxtBox.Size = new System.Drawing.Size(300, 25);
+            this.searchTxtBox.Size = new System.Drawing.Size(300, 22);
             // 
             // searchBtn
             // 
@@ -525,34 +525,34 @@
             this.searchBtn.Image = ((System.Drawing.Image)(resources.GetObject("searchBtn.Image")));
             this.searchBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(23, 22);
+            this.searchBtn.Size = new System.Drawing.Size(23, 19);
             this.searchBtn.Text = "toolStripButton1";
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 22);
             // 
             // fileNameLabel
             // 
             this.fileNameLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileNameLabel.ForeColor = System.Drawing.Color.White;
             this.fileNameLabel.Name = "fileNameLabel";
-            this.fileNameLabel.Size = new System.Drawing.Size(126, 22);
+            this.fileNameLabel.Size = new System.Drawing.Size(126, 19);
             this.fileNameLabel.Text = "Current Open File:";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 22);
             // 
             // numOfWordsLabel
             // 
             this.numOfWordsLabel.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numOfWordsLabel.ForeColor = System.Drawing.Color.White;
             this.numOfWordsLabel.Name = "numOfWordsLabel";
-            this.numOfWordsLabel.Size = new System.Drawing.Size(133, 22);
+            this.numOfWordsLabel.Size = new System.Drawing.Size(133, 19);
             this.numOfWordsLabel.Text = "Number of words: 0";
             // 
             // toolTip1
