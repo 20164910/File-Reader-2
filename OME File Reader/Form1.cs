@@ -178,7 +178,7 @@ namespace OME_File_Reader
 
         }
 
-        //dialog appears twice************************************
+        //dialog appears twice
         //Exit
         //To exit the application
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -524,7 +524,7 @@ namespace OME_File_Reader
             }
         }
 
-        //not working anymore*********************************
+        //not working anymore
         private void Form1_Load(object sender, EventArgs e)
         {
             toolTip1.SetToolTip(openFileBtn, "Click to select file to be read");
